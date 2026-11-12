@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int n,i;
+int f1=0,f2=1,next;
+printf("enter the value of n");
+scanf("%d",f1);
+printf("fibonacci series");
+for(i=1;i<=n;i++);
+{
+    printf("%d",f1);
+    next=f1+f2;
+    f1=f2;
+    f2=next;
+}
+return 0;
+}
